@@ -5,16 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./src/styles.css">
-    <style>@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400&display=swap');
-        </style>
-
+    <style>@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400&display=swap');</style>
     <style>
-          html {
-                 scroll-behavior: smooth;
-         }
-
-         section {
-                 min-height: 100vh;
+        section {
+                 min-height: 80vh;
                  display: flex;
                  justify-content: center;
                  align-items: center;
@@ -22,14 +16,13 @@
         }
     </style>
 <body>
-
-    <main class="container">
-   
-        <section id="titulos">
+    <div class="container">
+           <section id="titulos">
             <h1>Hola, Soy Diana.</h1>
-            <h2>Este es mi Blog</h2> </section>
+            <h2>Este es mi Blog</h2> 
+          </section>
             
-      <section class="text">      
+      <section class="text1">      
     <h3>Agradecimientos</h3>
         <p>En primer lugar quiero agradecer a Dios por que por el estamos vivos y tambien por usarlos a ustedes "ACADEMLO" como una puerta a ese mundo tan maravilloso como lo es la programación.</p>
         <p>A ustedes como academia un gracias infinito por representar esa oportunidad que estabamos buscando muchos de los que estamos cursando actualmente en esta generación 30,
@@ -50,11 +43,32 @@
         y debo repasar muchas veces.  
        </p>
     </section>
+   
+    <section class="text2">
+      <div>
+      <h3>Me les presento pues!</h3>
+  
+          <p>Oriunda del departamento de Risaralda pero con padres antioqueños osea porto el flow jajajajajaja, actualmente vivo en el Departamento del Meta en un municipio llamado 
+             Vista Hermosa, que calor tan espantoso....Soy comerciante hace aproximadamente 4 años,tengo una hija adolecente y un pre-adolecente son mi alisiente y mi motor, verlos a ellos
+             es verme a mi en el espejo, son todo lo que yo soy y mas! obviando algunas cosas claro esta.
+             Soy Tecnológa en Sistemas con conocimientos basicos en contabilidad,servicio al cliente,gastronomía,"me fascina la comida asiatica y se hacer sushi jajajaja",tengo nivel basico en 
+             Italiano y Frances y proximamente intermedio en Ingles, he salido del pais y eso trajo a mi vida una expansion de mente brutal!.. Actualmente estudiando desarrollo full strack, con el 
+             ideal de volver a salir y ver todas esas cosas maravillosas que Dios nos ha regalado y de las que la humanidad nos ha cohibido.</p><br>
+  
+             <p>Dificil describirme soy polifacetica, impredecible, demasiado errante, resiliente entre muchas cualidades mas, me encanta las actividades al aire libre, me brindadn tranquilidad, y 
+             vitalidad, me gusta el deporte en especial el voleyball y el gimnasio, me gusta rodearme de gente que expanda mi mente y que me aporte cosas nuevas a mi vida.
+             Considero que un dia perdido en un dia sin risas y a mi me encanta reirme, escucho toda clase de musica me bailo hasta los jingles ajjajaja, soy donde puedo ser y me alejo de donde se
+             que no debo de estar, creo en Dios es el poder absoluto para mi pero tambien en la espiritualidad en que todos somos uno y que somos a lo que le damos mas poder.</p>
+  
+             <p>No quiero hablar muccho sobre mi, así que preferí hacer una cajita de comentarios de personas imporantes en mi vida, quizas ellos puedan deifinirme un poco mejor.</p>
+      </div>
+    </section>
 
  
-    <h4>Recuerdos</h4><br>
+    <h4>Recuerdos importantes</h4><br>
     <span class="linea"></span>
     <section class="galeria">
+      
         <a href="#images1">
         <img src="./src/images/img7.jpg" alt="">
         </a>
@@ -94,121 +108,101 @@
   </section>
 
   <article class="light-box" id="images1">
-    <a href="#img12.jpeg" class="next"></a>
-    <img src="img7.jpeg" alt="">
-    <a href="#img2.jpeg" class="next"></a>
+    <a href="#images6" class="next"><i class='bx bx-right-arrow-alt'></i></a>
+    <img src="./src/images/img7.jpg" alt="">
+    <a href="#images12" class="next"><i class='bx bx-left-arrow-alt'></i></a>
     <a href="#" class="close">X</a>
+    
   </article>
 
   <article class="light-box" id="images2">
-    <a href="#images1" class="next"><box-icon name='right-arrow-alt'></box-icon></a>
-    <img src="img2.jpeg" alt="">
-    <a href="#images3" class="next"><box-icon name='left-arrow-alt'></box-icon></a>
+    <a href="#images1" class="next"><i class='bx bx-right-arrow-alt'></i></a>
+    <img src="./src/images/img10.jpeg" alt="">
+    <a href="#images3" class="next"><i class='bx bx-left-arrow-alt'></i></a>
     <a href="#" class="close">X</a>
+    
   </article>
 
   <article class="light-box" id="images3">
-    <a href="#images2" class="next"><box-icon name='right-arrow-alt'></box-icon></a>
-    <img src="img3.jpeg" alt="">
-    <a href="#images4" class="next"><box-icon name='left-arrow-alt'></box-icon></a>
-    <a href="#" class="close">X</a>
-  </article>
-
-  <article class="light-box" id="images4">
-    <a href="#images3" class="next"><box-icon name='right-arrow-alt'></box-icon></a>
-    <img src="img4.jpeg" alt="">
-    <a href="#images5" class="next"><box-icon name='left-arrow-alt'></box-icon></a>
+    <a href="#images2" class="next"><i class='bx bx-right-arrow-alt'></i></a>
+    <img src="./src/images/img11.jpeg" alt="">
+    <a href="#images4" class="next"><i class='bx bx-left-arrow-alt'></i></a>
     <a href="#" class="close">X</a>
   </article>
 
   <article class="light-box" id="images5">
-    <a href="#images4" class="next"><box-icon name='right-arrow-alt'></box-icon></a>
-    <img src="img5.jpeg" alt="">
-    <a href="#images6" class="next"><box-icon name='left-arrow-alt'></box-icon></a>
+    <a href="#images4" class="next"><i class='bx bx-right-arrow-alt'></i></a>
+    <img src="./src/images/img5.jpeg" alt="">
+    <a href="#images6" class="next"><i class='bx bx-left-arrow-alt'></i></a>
     <a href="#" class="close">X</a>
   </article>
 
   <article class="light-box" id="images6">
-    <a href="#images5" class="next"><box-icon name='right-arrow-alt'></box-icon></a>
-    <img src="img6.jpeg" alt="">
-    <a href="#images7" class="next"><box-icon name='left-arrow-alt'></box-icon></a>
+    <a href="#images5" class="next"><i class='bx bx-right-arrow-alt'></i></a>
+    <img src="./src/images/img9.jpeg" alt="">
+    <a href="#images7" class="next"><i class='bx bx-left-arrow-alt'></i></a>
     <a href="#" class="close">X</a>
   </article>
 
   <article class="light-box" id="images7">
-    <a href="#images6" class="next"><box-icon name='right-arrow-alt'></box-icon></a>
-    <img src="img7.jpeg" alt="">
-    <a href="#images8" class="next"><box-icon name='left-arrow-alt'></box-icon></a>
+    <a href="#images6" class="next"><i class='bx bx-right-arrow-alt'></i></a>
+    <img src="./src/images/img1.jpeg" alt="">
+    <a href="#images8" class="next"><i class='bx bx-left-arrow-alt'></i></a>
     <a href="#" class="close">X</a>
   </article>
 
   <article class="light-box" id="images8">
-    <a href="#images7" class="next"><box-icon name='right-arrow-alt'></box-icon></a>
-    <img src="img8.jpg" alt="">
-    <a href="#images9" class="next"><box-icon name='left-arrow-alt'></box-icon></a>
+    <a href="#images7" class="next"><i class='bx bx-right-arrow-alt'></i></a>
+    <img src="./src/images/img8.jpeg" alt="">
+    <a href="#images9" class="next"><i class='bx bx-left-arrow-alt'></i></a>
     <a href="#" class="close">X</a>
   </article>
 
   <article class="light-box" id="images9">
-    <a href="#images8" class="next"><box-icon name='right-arrow-alt'></box-icon></a>
-    <img src="img9.jpg" alt="">
-    <a href="#images10" class="next"><box-icon name='left-arrow-alt'></box-icon></a>
+    <a href="#images8" class="next"><i class='bx bx-right-arrow-alt'></i></a>
+    <img src="./src/images/img4.jpeg" alt="">
+    <a href="#images10" class="next"><i class='bx bx-left-arrow-alt'></i></a>
     <a href="#" class="close">X</a>
   </article>
 
   <article class="light-box" id="images10">
-    <a href="#images9" class="next"><box-icon name='right-arrow-alt'></box-icon></a>
-    <img src="img10.jpg" alt="">
-    <a href="#images11" class="next"><box-icon name='left-arrow-alt'></box-icon></a>
+    <a href="#images9" class="next"><i class='bx bx-right-arrow-alt'></i></a>
+    <img src="./src/images/img2.jpeg" alt="">
+    <a href="#images11" class="next"><i class='bx bx-left-arrow-alt'></i></a>
     <a href="#" class="close">X</a>
   </article>
 
   <article class="light-box" id="images11">
-    <a href="#images10" class="next"><box-icon name='right-arrow-alt'></box-icon></a>
-    <img src="img11.jpg" alt="">
-    <a href="#images12" class="next"><box-icon name='left-arrow-alt'></box-icon></a>
+    <a href="#images10" class="next"><i class='bx bx-right-arrow-alt'></i></a>
+    <img src="./src/images/img3.jpeg" alt="">
+    <a href="#images12" class="next"><i class='bx bx-left-arrow-alt'></i></a>
     <a href="#" class="close">X</a>
   </article>
 
   <article class="light-box" id="images12">
-    <a href="#images11" class="next"><box-icon name='right-arrow-alt'></box-icon></a>
-    <img src="img11.jpeg" alt="">
-    <a href="#images1" class="next"><box-icon name='left-arrow-alt'></box-icon></a>
+    <a href="#images11" class="next"><i class='bx bx-right-arrow-alt'></i></a>
+    <img src="./src/images/img6.jpeg" alt="">
+    <a href="#images1" class="next"><i class='bx bx-left-arrow-alt'></i></a>
     <a href="#" class="close">X</a>
   </article>
 
-  <section class="containedor">
-    <div class="text2">
-    <h3>Un poquito de mi</h3>
 
-        <p>Oriunda del departamento de Risaralda pero con padres antioqueños osea porto el flow jajajajajaja, actualmente vivo en el Departamento del Meta en un municipio llamado 
-           Vista Hermosa, soy comerciante hace aproximadamente 4 años,tengo una hija adolecente y un pre-adolecente, soy Tecnologa en Sistemas con conocimientos basicos en contabilidad,
-           servicio al cliente,gastronomía,"me fascina la comida asiatica y se hacer sushi jajajaja", tengo nivel basico en Italiano y Frances y proximamente intermedio en Ingles, actualmente
-           estudiando desarrollo full strack.</p><br>
+  <section class="text3">
+    <h3>Comentarios</h3><br>
+   </section>
 
-           <p>Dificil describirme soy polifacetica, impredecible, demasiado errante, resiliente entre muchas cualidades mas, me encanta las actividades al aire libre, me brindadn tranquilidad, y 
-           vitalidad, me gusta el deporte en especial el voleyball y el gimnasio, me gusta rodearme de gente que expanda mi mente y que me aporte cosas nuevas a mi vida.
-           Considero que un dia perdido en un dia sin risas y a mi me encanta reirme, escucho toda clase de musica me bailo hasta los jingles ajjajaja, soy donde puedo ser y me alejo de donde se
-           que no debo de estar, creo en Dios es el poder absoluto para mi.</p>
-    </div>
-
-
-
-  </section>
-
-
-  <section class="cards">
     <div class="card">
-        <div class="card__head">
-            <div class="card__head__img">
-                <img src="./src/images/sofia.jpg"alt=>
-            </div>
-            <div class="card__head__info">
-                <p>Sofia Henao</p>
-                <p>Mi princesa</p>
-            </div>
+      <div class="card__head">
+        <div class="card__head__img">
+          <img src="./src/images/sofia.jpg"alt=>
         </div>
-        <h5>Hola ma, cómo estás?</h5>
+
+        <div class="card__head__info">
+            <p>Sofia Henao</p>
+            <p>Mi princesa</p>
+        </div>
+    </div>
+    <h5>Hola ma, cómo estás?</h5>
         <p>"Te quería decir que tú eres muy comprensiva con los demás y eso es lo que más he notado,
              también el hecho de que no te rindes fácil y eres capaz de encontrar una solución a todo 
              aunque las cosas se pongan complicadas y se que cualquier persona que te ve dirá "tiene 
@@ -219,72 +213,76 @@
              que pasar alrededor de tu vida y por más que te pasen cosas no dejas de ser tu y eso es lo 
              que te hace única❤️."</p>
     </div>
-    <div class="card">
-        <div class="card__head">
-            <div class="card__head__img">
-                <img src="./src/images/edwin.jpg"alt=>
-            </div>
-            <div class="card__head__info">
-                <p>Edwin Lopez</p>
-                <p>Amigo</p>
-            </div>
-        </div>
-        <h5>Diana</h5>
-        <p>"Desde que inició nuestra amistad he aprendido a ver de forma distinta la espiritualidad, me enseñaste
-             que a pesar de la aparente tristeza que puede agobiar nuestras vidas siempre sale el reluciente sol 
-             por las mañanas, me quedé con esa forma de ver la vida y me ha sido muy útil para ayudar a otros a 
-             vivir desde la esperanza"</p>
-    </div>
-    <div class="card">
-        <div class="card__head">
-            <div class="card__head__img">
-                <img src="./src/images/francy.jpg"alt=>
-            </div>
-            <div class="card__head__info">
-                <p> Francy Sanchez</p>
-                <p>Amiga</p>
-            </div>
-        </div>
-        <h5>Mami</h5>
-        <p>"Eres una super amiga y gran ser humano gracias por estar siempre ahí escucharme y 
-            por tus lindos concejos 
-            T.Q.M 🙅🏻‍♀️"</p>
-    </div>
-    <div class="card">
-        <div class="card__head">
-            <div class="card__head__img">
-                <img src="./src/images/julian.jpg"alt=>
-            </div>
-            <div class="card__head__info">
-                <p>Julian Fajardo</p>
-                <p>Amigo</p>
-            </div>
-        </div>
-        <h5>Dianis!</h5>
-        <p>"Desde que conozco a diana he considerado que es una persona honesta, muy dedicada en lo qué se propone, y la
-             considero una gran amiga y aunque hablamos muy poco siempre que la necesito ha estado ahi y es de esas personas
-              que uno siempre quiere tener en su círculo mas cercano porque siempre esta aportando cosas positivas en nuestra 
-              vida"</p>
-    </div>
-    <div class="card">
-        <div class="card__head">
-            <div class="card__head__img">
-                <img src="./src/images/laura.jpg"alt=>
-            </div>
-            <div class="card__head__info">
-                <p>Laura Paez</p>
-                <p>Mi princesa</p>
-            </div>
-        </div>
-        <h5>Hola Diana!</h5>
-        <p>"Queria aprovechar el espacio para felicitarte por tu progreso personal! Admiro tu empeño y esas ganas de crecer y salir
-            adelante,lindo que estás estudiando, lo importante  es seguir. En tu paso por Argentina compartimos muy lindos momentos
-            que deseo pronto se repitan! Un abrazo fuerte!"</p>
-    </div>
 
-  </section>
+    <div class="card">
+      <div class="card__head">
+          <div class="card__head__img">
+              <img src="./src/images/edwin.jpg"alt=>
+          </div>
+          <div class="card__head__info">
+              <p>Edwin Lopez</p>
+              <p>Amigo</p>
+          </div>
+      </div>
+      <h5>Diana</h5>
+      <p>"Desde que inició nuestra amistad he aprendido a ver de forma distinta la espiritualidad, me enseñaste
+           que a pesar de la aparente tristeza que puede agobiar nuestras vidas siempre sale el reluciente sol 
+           por las mañanas, me quedé con esa forma de ver la vida y me ha sido muy útil para ayudar a otros a 
+           vivir desde la esperanza"</p>
+  </div>
 
-  </main>
+  <div class="card">
+    <div class="card__head">
+        <div class="card__head__img">
+            <img src="./src/images/francy.jpg"alt=>
+        </div>
+        <div class="card__head__info">
+            <p> Francy Sanchez</p>
+            <p>Amiga</p>
+        </div>
+    </div>
+    <h5>Mami</h5>
+    <p>"Te conozco hace muchos años y me parece que eres una super amiga y un gran ser humano, hemos compartido muchas cosas... Usted sabe que 
+      soy de pocas palabras, simplemente quiero darle las gracias por estar siempre ahí, por escucharme y por brindarme tus lindos concejos T.Q.M 🙅🏻‍♀️"</p>
+</div>
+
+<div class="card">
+  <div class="card__head">
+      <div class="card__head__img">
+          <img src="./src/images/julian.jpg"alt=>
+      </div>
+      <div class="card__head__info">
+          <p>Julian Fajardo</p>
+          <p>Amigo</p>
+      </div>
+  </div>
+  <h5>Dianis!</h5>
+  <p>"Desde que conozco a diana he considerado que es una persona honesta, muy dedicada en lo qué se propone, y la
+       considero una gran amiga y aunque hablamos muy poco siempre que la necesito ha estado ahi y es de esas personas
+        que uno siempre quiere tener en su círculo mas cercano porque siempre esta aportando cosas positivas en nuestra 
+        vida"</p>
+</div>
+
+<div class="card">
+  <div class="card__head">
+      <div class="card__head__img">
+          <img src="./src/images/laura.jpg"alt=>
+      </div>
+      <div class="card__head__info">
+          <p>Laura Paez</p>
+          <p>Mi princesa</p>
+      </div>
+  </div>
+  <h5>Hola Diana!</h5>
+  <p>"Queria aprovechar el espacio para felicitarte por tu progreso personal! Admiro tu empeño y esas ganas de crecer y salir
+      adelante,lindo que estás estudiando, lo importante  es seguir. En tu paso por Argentina compartimos muy lindos momentos
+      que deseo pronto se repitan! Un abrazo fuerte!"</p>
+</div>
+</div>
+</section>
+  
+</section>
+</main>
     
 </body>
 </html>
