@@ -6,70 +6,61 @@
     font-family: 'Raleway', sans-serif;
 }
 
-.container{
-    font-family: 'Raleway', sans-serif;
-    background-color: #f5EDC7;
-    min-height: 100vh;
-    width: 1024px;
-    margin: 0px auto;
-    padding: auto;  
-    justify-content: center;
-    align-items: center;
-    display: grid;
-    place-items: center;
-   
+@media screen and(max-width:900px) {
+    .text{
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    }
+    
+    .close{
+        top:20px;
+        right: 20px;
+    }
+}
+
+body{
+    background-color:#f5EDC7;
 
 }
 
 .text{
-    background-color:#f5EDC7;
     min-height: 100vh;
-    width: 1024px;
+    width: 95%;
     font-weight: 400;
     text-align: center;
-    padding: 20px 0;
+    padding:1rem;
     margin: auto;
     height: 100vh;    
     font-size: 40px;
     display: flex;
-    color:#346145;
+}
+
+.name{
+    margin: 0;
+    padding: 0;
+    font-weight: 400px;
     color:#346145;
 }
 
 h2{
     color:#554e4f ;
     font-size: 35px; 
-    font-weight: 400;
+    font-weight: 400px;
 }
 
 h3{
-    color:#346145 ;
+    color:#554e4f ;
     font-size: 35px; 
-    font-weight: 400;
+    font-weight: 400px;
 }
 
-.text1{
+.text{
    display: grid;
    gap: 1rem;
    padding: 1rem;
-   max-width: 1024px;
+   max-width: 95%;
    color: #353535;
 }
 
-.text2{
-    display: grid;
-    gap: 1rem;
-    padding: 1rem;
-    max-width: 1024px;
-    color: #353535;
-}
-.text3{
-    display: grid;
-    gap: 1rem;
-    padding: 1rem;
-    max-width: 1024px;
-    color: #353535;
-}
 
 h3{
     font-weight: 300;
@@ -94,7 +85,7 @@ h6{
     color:#353535;
 }
 
-.linea{
+.linea1{
     background:#eb9c64 ;
     height: 5px;
     width: 100%;
@@ -194,7 +185,8 @@ img{
 
 }
 
-@media screen and(max-width:400px) {
+@media screen and(max-width:900px) {
+   
     .galeria{
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     }
@@ -207,9 +199,7 @@ img{
 
 
 .content{
-    background-color: #f5EDC7;
-    min-height: 100vh;
-    width: 1024px;
+    width: 95%;
     margin: 0px auto;
     padding: auto;  
     justify-content: center;
@@ -266,7 +256,7 @@ img{
 
 @media (min-width: 800px) {
     .content{
-        background-color:red;
+        background-color:#f5EDC7;
     }
     .cards {
         grid-template-columns: repeat(4, 1fr);
@@ -296,7 +286,7 @@ img{
 
 	.card:nth-child(5) {
 		grid-column: 4/ 5;
-		grid-row: 1 / 5;	
+		grid-row: 1 / 3;	
     }
 
     
